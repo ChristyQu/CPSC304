@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../IMG/SignInImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#Centered .MainBox {
+    padding: 20px 50px; /* login框内部的距离(内部与输入框和按钮的距离) */
+    background-color: #00000090; /* login框背景颜色和透明度 */
+    width: 400px;
+    height: 400px;
+    border-radius: 10px; /* 圆角边 */
+    text-align: center; /* 框内所有内容居中 */
+}
+
+#Centered .MainBox h1 {
+    color: white; /* LOGIN字体颜色 */
+}
+
+#Centered .MainBox .checkBox {
+    margin-top: 50px; /* 输入框顶部与SIGNIN标题的间距 */
+    color: white;
+}
+
+#Centered .MainBox .inputBox {
+    margin-top: 25px; /* 输入框顶部与checkBox的间距 */
+}
+
+#Centered .MainBox .inputBox .inputText {
+    margin-top: 20px; /* 输入框之间的距离 */
+}
+
+#Centered .MainBox .inputBox .inputText span {
+    color: white; /* icon颜色 */
+}
+
+#Centered .MainBox .inputBox .inputText input {
+    border: 0; /* 删除输入框边框 */
+    padding: 10px 10px; /* 输入框内的间距 */
+    background-color: #00000090; /* 输入框透明 */
+    color: white; /* 输入字体的颜色 */
+}
+
+#Centered .MainBox .loginButton {
+    margin-top: 50px; /* 按钮顶部与输入框的距离 */
+    width: 150px;
+    height: 25px;
+    color: white; /* 按钮字体颜色 */
+    border: 0; /* 删除按钮边框 */
+    border-radius: 20px; /* 按钮圆角边 */
+    background-image: linear-gradient(to right, #3D518A 0%, #42589A 0%, #506CAA 33%, #5E7DBD 66%, #88ADDF 100%); /* 按钮颜色 */
+}
+
+#Centered .MainBox p {
+    color: white; /* LOGIN字体颜色 */
+}
+
+#Centered .MainBox a {
+    color: #8BD0F0; /* LOGIN字体颜色 */
+}

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Centered {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#Centered .Header {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+#Centered .MainBox {
+    margin-top: 0px;
+    width: 80%;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* 移动元素本身50% */
+    border: 3px transparent solid;
+    border-image: linear-gradient(to right, #545a00, #94922a, #b2b71f, #d9dfc5) 1 10;
+
+}
+
+#Centered .MainBox .SideBar {
+    width: 85%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+a {
+    margin-left: 0;
+    text-decoration: none; /*去掉字下划线*/
+    color: #000000;
+}
+
+#Centered .MainBox .SideBar a {
+    margin: 0 25px;
+}
+
+li {
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+    overflow: hidden; /*隐藏圆点*/
+    line-height: 80px; /*行高*/
+}
+
+li:hover { /*hover表示鼠标放上去之后的变化*/
+    background-color: #dadde3;
+}
+
+#Centered .MainBox .Content {
+    padding-left: 50px;
+    width: 78%;
+    height: 580px;
+    float: left;
+}
+
+#Centered .MainBox .Content img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    /*margin: 6px auto;*/
+    border-radius: 50% 50%;
+    border: solid 3px lightskyblue;
+    overflow: hidden;
+}
+
+#Centered .MainBox .Content .Read input {
+    border: 0; /* 删除输入框边框 */
+    background-color: #00000000; /* 输入框透明 */
+    color: black; /* 输入字体的颜色 */
+}

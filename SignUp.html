@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/Center.css"/>
+    <link rel="stylesheet" href="CSS/SignUp.css"/>
+    <title>SignUp</title>
+</head>
+
+<body>
+
+<div id="Centered">
+
+    <div class="MainBox">
+
+        <h1>New User Sign up</h1>
+        <form method="POST" action="../../../../Downloads/display.php"> <!--refresh page when submitted-->
+            <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
+
+            <div class="inputBox">
+                <div class="inputText">
+                    User Name: <input type="text" name="username"> <br/><br/>
+                    Password: <input type="password" name="password"> <br/><br/>
+                    Confirm Password: <input type="password" name="password"> <br/><br/>
+                </div>
+                Location:
+                <select name="location">
+                    <optgroup label="location">
+                        <option value=Asia>Asia</option>
+                        <option value=Africa>Africa</option>
+                        <option value=North America>North America</option>
+                        <option value=South America>South America</option>
+                        <option value=Antarctica>Antarctica</option>
+                        <option value=Europe>Europe</option>
+                        <option value=Australia>Australia</option>
+                    </optgroup>
+                </select> <br/><br/>
+                <!--                    Device: <input type="text" name="password"> * <br/><br/>-->
+            </div>
+
+            <div class="checkBox">
+                Select a account type:<br/><br/>
+                <input type="radio" id="goldmember" name="drone" value="huey" checked>
+                <label for="goldmember">Gold member</label> * <br/><br/>
+                <input type="radio" id="regularmember" name="drone" value="dewey">
+                <label for="regularmember">Regular member</label> * <br/><br/>
+                <input type="radio" id="producer" name="drone" value="louie">
+                <label for="producer">Producer</label>
+            </div>
+
+            <a href="PopUp.html">
+                <input class="SignUpButton" type="button" value="Sign up"/>
+            </a>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

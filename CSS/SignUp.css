@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../IMG/SignUpImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Centered .MainBox {
+    padding: 20px 50px; /* SignUp框内部的距离(内部与输入框和按钮的距离) */
+    background-color: rgba(239, 239, 239, 0.85);
+    width: 400px;
+    height: 625px;
+    border-radius: 10px; /* 圆角边 */
+    text-align: left; /* 框内所有内容居中 */
+}
+
+#Centered .MainBox h1 {
+    color: black; /* SignUp字体颜色 */
+}
+
+#Centered .MainBox .inputBox {
+    margin-top: 50px;
+}
+#Centered .MainBox .inputBox .inputText {
+    margin-top: 20px; /* 输入框之间的距离 */
+}
+
+#Centered .MainBox .inputBox .inputText input {
+    border: 0; /* 删除输入框边框 */
+    padding: 10px 10px; /* 输入框内的间距 */
+    background-color: white; /* 输入框 */
+    color: black; /* 输入字体的颜色 */
+}
+
+#Centered .MainBox .checkBox {
+    margin-top: 30px; /* 输入框顶部与SIGNIN标题的间距 */
+    color: black;
+}
+
+#Centered .MainBox .SignUpButton {
+    margin-top: 50px; /* 按钮顶部与输入框的距离 */
+    width: 150px;
+    height: 25px;
+    color: white; /* 按钮字体颜色 */
+    border: 0; /* 删除按钮边框 */
+    border-radius: 20px; /* 按钮圆角边 */
+    background-image: linear-gradient(to left, #a6b683 0%, #8c9765 33%, #6c7853 66%, #607468 100%); /* 按钮颜色 */
+}
+
+#Centered .MainBox a {
+    color: #8BD0F0; /* LOGIN字体颜色 */
+}

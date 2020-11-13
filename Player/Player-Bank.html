@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/Player.css"/>
+    <link rel="stylesheet" href="../CSS/iconfont-Player.css"/>
+    <title>Bank</title>
+</head>
+
+<body>
+<div id="Centered">
+
+    <div class="Header">
+        <img src="../IMG/Header.jpg"/>
+    </div>
+
+    <div class="MainBox">
+
+        <div class="SideBar">
+            <ul>
+                <li>
+                    <a href="Player-Info.html">
+                        <span class="iconfont icon-user"></span>
+                        <span>Account Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Membership.html">
+                        <span class="iconfont icon-membership"></span>
+                        <span>Membership</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-MyGames.html">
+                        <span class="iconfont icon-game"></span>
+                        <span>My Games</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Bank.html">
+                        <span class="iconfont icon-bank"></span>
+                        <span>Bank Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Gift.html">
+                        <span class="iconfont icon-gift"></span>
+                        <span>Gift</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Friends.html">
+                        <span class="iconfont icon-friends"></span>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-AllGames.html">
+                        <span class="iconfont icon-all"></span>
+                        <span>All Games</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Content">
+            <h2>Bank Account</h2>
+            <form method="POST" action="../../../../../Downloads/display.php"> <!--refresh page when submitted-->
+                <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
+
+                <div class="BankAccount">
+                    <table border="1">
+                        <thead>
+                        <tr>
+                            <th>Bank Name</th>
+                            <th>ID</th>
+                            <th>Expire Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>RBC</td>
+                            <td>****0101</td>
+                            <td>2021-01-01</td>
+                        </tr>
+                        <tr>
+                            <td>BMO</td>
+                            <td>****0202</td>
+                            <td>2021-01-01</td>
+                        </tr>
+                        <tr>
+                            <td>TD</td>
+                            <td>****0303</td>
+                            <td>2021-01-01</td>
+                        </tr>
+                        <tr>
+                            <td>CIBC</td>
+                            <td>****0404</td>
+                            <td>2021-01-01</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br/><br/>
+
+                </div>
+
+                <div class="add account">
+                    <a href="Player-AddBankAccount.html">
+                        <input class="SignUpButton" type="button" value="add account"/> <br/><br/>
+                    </a>
+                </div>
+
+                <div class="update expire date">
+                    <a href="Player-UpdateExpireDate.html">
+                        <input class="SignUpButton" type="button" value="update expire date"/> <br/><br/>
+                    </a>
+                </div>
+
+                <div class="delete account">
+                    <a href="Player-DeleteBankAccount.html">
+                        <input class="SignUpButton" type="button" value="delete account"/> <br/><br/>
+                    </a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
