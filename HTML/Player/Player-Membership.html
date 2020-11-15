@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../CSS/Sidebar.css"/>
+    <link rel="stylesheet" href="../../CSS/iconfont-Sidebar.css"/>
+    <title>User Information</title>
+</head>
+<body>
+<div id="Centered">
+
+    <div class="Header">
+        <img src="../../ProjectIMG/Header.jpg"/>
+    </div>
+
+    <div class="MainBox">
+
+        <div class="SideBar">
+            <ul>
+                <li>
+                    <a href="Player-Info.html">
+                        <span class="iconfont icon-user"></span>
+                        <span>Account Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Membership.html">
+                        <span class="iconfont icon-membership"></span>
+                        <span>Membership</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-MyGames.html">
+                        <span class="iconfont icon-game"></span>
+                        <span>My Games</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Bank.html">
+                        <span class="iconfont icon-bank"></span>
+                        <span>Bank Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Device.html">
+                        <span class="iconfont icon-device"></span>
+                        <span>Device</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Gift.html">
+                        <span class="iconfont icon-gift"></span>
+                        <span>Gift</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-Friends.html">
+                        <span class="iconfont icon-friends"></span>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Player-AllGames.html">
+                        <span class="iconfont icon-all"></span>
+                        <span>All Games</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Content">
+            <h2>Membership</h2>
+            <form method="POST" action="../../../../Downloads/display.php"> <!--refresh page when submitted-->
+                <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
+
+                <div class="Read">
+                    Current Membership: <input class="Membership" type="text" value="Regular Member" readonly/>
+                </div>
+                <br/><br/>
+                Upgrade to Golden Member: $100 (A lifetime guarantee!) <br/><br/>
+                Select payment method:
+                <select name="payment method">
+                    <optgroup label="payment method">
+                        <option value=BMO****0304>BMO****0304</option>
+                        <option value=RBC****0405>RBC****0405</option>
+                        <option value=CIBC***0506>CIBC***050</option>
+                        <option value=TD****0607>TD****0607</option>
+                    </optgroup>
+                </select>
+                <a href="Player-Membership.html">
+                    <input class="Button" type="button" value="Upgrade"/>
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../CSS/Sidebar.css"/>
+    <link rel="stylesheet" href="../../CSS/iconfont-Sidebar.css"/>
+    <title>Don'tStarve</title>
+</head>
+
+<body>
+
+<div id="Centered">
+
+    <div class="Header">
+        <img src="../../ProjectIMG/Game/Don'tStarve.jpg"/>
+    </div>
+
+    <div class="MainBox">
+
+        <div class="SideBar">
+            <ul>
+                <li>
+                    <a href="../Player/Player-Info.html">
+                        <span class="iconfont icon-user"></span>
+                        <span>Account Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-Membership.html">
+                        <span class="iconfont icon-membership"></span>
+                        <span>Membership</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-MyGames.html">
+                        <span class="iconfont icon-game"></span>
+                        <span>My Games</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-Bank.html">
+                        <span class="iconfont icon-bank"></span>
+                        <span>Bank Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-Device.html">
+                        <span class="iconfont icon-device"></span>
+                        <span>Device</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-Gift.html">
+                        <span class="iconfont icon-gift"></span>
+                        <span>Gift</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-Friends.html">
+                        <span class="iconfont icon-friends"></span>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../player/Player-AllGames.html">
+                        <span class="iconfont icon-all"></span>
+                        <span>All Games</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Content">
+            <h2>Don't Starve</h2>
+            <form method="POST" action="../../../../Downloads/display.php"> <!--refresh page when submitted-->
+                <input type="hidden" id="insertQueryRequest" name="insertQueryRequest">
+                <div class="gameinfo">
+
+                    <div class="Read">
+<!--                        Name: <input type="text" name="gamename" value="Don't Starve" readonly>-->
+                        Type: <input type="text" name="gametype" value="Simulation Games" readonly>
+                        Latest Version: <input type="text" name="version" value="5.1.3" readonly> <br/><br/>
+                        Producer: <input type="text" name="version" value="Klei Entertainment" readonly> <br/><br/>
+                    </div>
+
+                    <div class="Public comment">
+                        <table border="1">
+                            <thead>
+                            <tr>
+                                <th>Comments</th>
+                                <th>username</th>
+                                <th>comment time</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Awesome! Can't stop playing it!</td>
+                                <td>Christy</td>
+                                <td>2020-02-02</td>
+                            </tr>
+                            <tr>
+                                <td>So boring!Not recommended at all!</td>
+                                <td>Chrissy</td>
+                                <td>2020-02-02</td>
+                            </tr>
+                            <tr>
+                                <td>Does anyone want to play this game together? Looking for partners!</td>
+                                <td>Kevin</td>
+                                <td>2020-02-02</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="Write">
+                        <input type="text" placeholder="Comment..."/> <a href="GameInfo-Don'tStarve.html">
+                        <input class="Button" type="button" value="Add comment"> <br/><br/>
+                    </a>
+                    </div>
+
+                    <div class="Read">
+                        Game length: <input type="text" name="gamelength" value="1000 hours" readonly> <br/><br/>
+                        Rating/Rank: <input type="text" name="gamename" value="Golden" readonly> <br/><br/>
+
+                        <div class="accomplishment">
+                            My accomplishment:
+                            <table border="1">
+                                <thead>
+                                <tr>
+                                    <th>AccomplishmentID</th>
+                                    <th>Reward</th>
+                                    <th>Level</th>
+                                    <th>Date</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>01010202</td>
+                                    <td>200exp</td>
+                                    <td>Gold</td>
+                                    <td>2020-01-01</td>
+                                </tr>
+                                <tr>
+                                    <td>03030404</td>
+                                    <td>1000exp</td>
+                                    <td>Gold</td>
+                                    <td>2020-01-01</td>
+                                </tr>
+                                <tr>
+                                    <td>05050606</td>
+                                    <td>500exp</td>
+                                    <td>Gold</td>
+                                    <td>2020-01-01</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <br/><br/>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
